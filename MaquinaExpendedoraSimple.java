@@ -55,8 +55,12 @@ public class  MaquinaExpendedoraSimple {
         return balanceClienteActual;
     }
     
-        public int getTotalDineroAcumulado() {
+    public int getTotalDineroAcumulado() {
         return totalDineroAcumulado;
+    }
+    
+    public void vaciarDepositoDinero(){
+        totalDineroAcumulado = 0;
     }
 
     /**
